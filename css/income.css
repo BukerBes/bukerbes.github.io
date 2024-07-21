@@ -64,6 +64,9 @@ body {
 
     text-align: center;
 }
+.user-name {
+    margin-right: 5px;
+}
 .user-img {
     width: 35px;
     border-radius: 50%;
@@ -77,11 +80,36 @@ body {
     transform: translate(-50%, -50%);
 }
 .logo-img {
-    width: 40px;
+    width: 35px;
 }
 
 .content {
+    
+}
 
+.container-nav-pills {
+    margin: 8px;
+    padding: 5px;
+    
+    background: #fff5;
+    border-radius: 0.5em;
+
+    box-shadow: 0 -1px 15px rgba(0, 0, 0, .05);
+    
+    font-size: 15px;
+}
+.nav-soon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-soon-text {
+    
+}
+.nav-lock-img {
+    margin-right: 5px;
+    width: 15px;
+    height: 20px;
 }
 
 @media screen and (max-width: 370px) {
