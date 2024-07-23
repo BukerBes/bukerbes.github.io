@@ -112,6 +112,101 @@ body {
     height: 20px;
 }
 
+
+.business-content {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.business-card {
+    margin: 10px;
+    
+    background: #fff5;
+    border-radius: 15px;
+    
+    backdrop-filter: blur(10px);
+}
+.bcard-inner {
+    margin: 8%;
+    
+}
+
+.bcard-header {
+    display: grid;
+}
+.bcard-name {
+    margin: 5px 0px;
+    
+    font-size: 15px;
+    font-weight: 700;
+}
+.bcard-lvl {
+    display: inline-block;
+    
+    position: absolute;
+    right: 8%;
+    
+    font-size: 15px;
+    
+    background: #FFDC3D;
+    border-radius: 1em;
+    padding: 1px 6px;
+}
+.bcard-img {
+    width: 35%;
+    
+    border-radius: 10px;
+}
+
+.bcard-footer {
+    
+}
+.bcard-income {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 1;
+    
+    align-items: center;
+}
+.bcard-income-name {
+    text-align: start;
+    font-size: 12px;
+}
+.bcard-income-val {
+    position: absolute;
+    right: 0%;
+    
+    width: 35%;
+    text-align: center;
+    
+    margin: 8%;
+    font-size: 14px;
+    
+    background: #FFDC3D;
+    border-radius: 1em;
+}
+
+.bcard-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 10% 0px;
+    width: 100%;
+    
+    border: none;
+    border-radius: 0.4em;
+    background: #ffffff;
+}
+.bcard-coin {
+    width: 20px;
+    margin: 5px 8px;
+}
+.bcard-amount {
+    font-size: 15px;
+    font-weight: 700;
+}
+
 @media screen and (max-width: 370px) {
 	.user-name {
 		font-size: 15px;
