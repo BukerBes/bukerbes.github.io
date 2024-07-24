@@ -57,7 +57,7 @@ body {
     font-weight: 700;
 }
 .bottom-nav a.active {
-
+    
 }
 
 .user-nav a {
@@ -118,6 +118,8 @@ body {
 .business-content {
     display: grid;
     grid-template-columns: repeat(2, 50%);
+    
+    padding-bottom: 25%;
 }
 
 .business-card {
