@@ -26,21 +26,23 @@ body {
 }
 
 .bottom-nav {
-    background: #fff5;
+    display: flex;
     position: fixed;
+    justify-content: space-around;
+    align-items: center;
     width: 98%;
     height: 10%;
     bottom: 0;
-	
+    
 	margin: 1%;
     padding: 8px 0px 0px 0px;
+    z-index: 100;
 
     border-radius: 0.7em;
     
+    background: #fff6;
     box-shadow: 0 -1px 15px rgba(0, 0, 0, .05);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    backdrop-filter: blur(15px);
 }
 .bottom-nav a {
     float: left;
