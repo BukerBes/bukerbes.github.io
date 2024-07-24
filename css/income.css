@@ -33,13 +33,13 @@ body {
     width: 98%;
     height: 10%;
     bottom: 0;
-    
+
 	margin: 1%;
     padding: 8px 0px 0px 0px;
     z-index: 100;
 
     border-radius: 0.7em;
-    
+
     background: #fff6;
     box-shadow: 0 -1px 15px rgba(0, 0, 0, .05);
     backdrop-filter: blur(15px);
@@ -119,7 +119,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 50%);
     
-    padding-bottom: 25%;
+    padding-bottom: 70px;
 }
 
 .business-card {
@@ -225,9 +225,34 @@ body {
 		width: 30px;
    		margin: 10px 10px;
 	}
-}@media screen and (max-height: 650px) {
-    
+}
+@media screen and (max-height: 1200px) {
+    .business-content {
+        padding-bottom: 120px;
+    }
+}
+@media screen and (max-height: 1000px) {
+    .business-content {
+        padding-bottom: 100px;
+    }
+}
+@media screen and (max-height: 900px) {
+    .business-content {
+        padding-bottom: 90px;
+    }
+}
+@media screen and (max-height: 700px) {
+    .business-content {
+        padding-bottom: 90px;
+    }
+}
+@media screen and (max-height: 650px) {
+    .business-content {
+        padding-bottom: 70px;
+    }
 }
 @media screen and (max-height: 550px) {
-    
+    .business-content {
+        padding-bottom: 60px;
+    }
 }
