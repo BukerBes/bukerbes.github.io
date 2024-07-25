@@ -17,72 +17,12 @@ body {
     background: linear-gradient(0deg, rgb(205, 247, 253), rgb(255, 246, 182)) fixed;
 }
 
-.container {
+.wrapper {
 	
 }
 
 .nav-container {
 	
-}
-
-.bottom-nav {
-    display: flex;
-    position: fixed;
-    justify-content: space-around;
-    align-items: center;
-    width: 98%;
-    height: 10%;
-    bottom: 0;
-
-	margin: 1%;
-    padding: 8px 0px 0px 0px;
-    z-index: 100;
-
-    border-radius: 0.7em;
-
-    background: #fff6;
-    box-shadow: 0 -1px 15px rgba(0, 0, 0, .05);
-    backdrop-filter: blur(15px);
-}
-.bottom-nav a {
-    float: left;
-    display: flex;
-    flex-direction: column;
-    row-gap: .50rem;
-
-    align-items: center;
-    text-align: center;
-
-    font-size: 13px;
-    font-weight: 700;
-}
-.bottom-nav a.active {
-    
-}
-
-.user-nav a {
-    display: flex;
-    align-items: center;
-
-    text-align: center;
-}
-.user-name {
-    margin-right: 5px;
-}
-.user-img {
-    width: 35px;
-    border-radius: 50%;
-    margin: 10px 15px;
-}
-
-.logo {
-    position: absolute;
-    top: 30px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.logo-img {
-    width: 35px;
 }
 
 .content {
@@ -214,6 +154,22 @@ body {
 }
 .bcard-amount {
     font-size: 15px;
+    font-weight: 700;
+}
+
+
+.Soon-template {
+    position: absolute;
+    display: flex;
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    text-align: center;
+}
+.soon-title {
+    font-size: 20vw;
     font-weight: 700;
 }
 
