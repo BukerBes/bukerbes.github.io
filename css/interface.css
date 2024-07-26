@@ -63,3 +63,14 @@
 .logo-img {
     width: 35px;
 }
+
+
+@media screen and (max-width: 370px) {
+	.user-name {
+		font-size: 15px;
+	}
+	.user-img {
+		width: 30px;
+   		margin: 10px 10px;
+	}
+}

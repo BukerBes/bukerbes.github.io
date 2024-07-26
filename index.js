@@ -1,5 +1,9 @@
 /* eslint-env es6 */
 /* eslint-disable no-console */
+let tg = window.Telegram.WebApp;
+
+tg.expand();
+
 const coinBtn = document.querySelector('.coin');
 const handleClick = (event) => {
     console.log('Click');
