@@ -1,4 +1,11 @@
 /* Bottom navigation view */
+a {
+	color: black;
+    font-family: "Lato Black";
+    
+	text-decoration: none;
+}
+
 .bottom-nav {
     display: flex;
     position: fixed;
@@ -29,6 +36,8 @@
 
     font-size: 13px;
     font-weight: 700;
+    
+    text-decoration: none;
 }
 .bottom-nav a.active {
     
@@ -43,8 +52,13 @@
     align-items: center;
 
     text-align: center;
+    
+    
+    text-decoration: none;
 }
 .user-name {
+    color: white;
+    
     margin-right: 5px;
 }
 .user-img {
