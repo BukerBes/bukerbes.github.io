@@ -25,14 +25,14 @@ body {
     font-family: 'Lato Black';
     color: white;
     
-    font-size: 12vw;
+    font-size: 10vw;
     font-weight: 700;
 }
 .head-text2 {
     display: inline-block;
     padding: 5px 10px;
     
-    font-size: 6vw;
+    font-size: 5vw;
     
     font-family: 'Lato Black';
     color: black;
@@ -45,7 +45,7 @@ body {
     display: grid;
     grid-template-columns: 20% 80%;
     
-    margin: 25px 10px;
+    margin: 25px 10px 15px;
     
     align-items: center;
     justify-content: space-around;
@@ -156,14 +156,14 @@ body {
     display: flex;
     align-items: center;
     
-    margin: 10px;
+    margin: 10px 15px;
 }
 .title-name {
     font-size: 30px;
     font-weight: 700;
 }
 .title-val {
-    margin-left: 20px;
+    margin-left: 15px;
     padding: 0px 10px;
     
     font-size: 25px;
@@ -173,7 +173,7 @@ body {
 }
 
 .list {
-    
+    padding-bottom: 15vh;
 }
 
 .list-item {
@@ -262,6 +262,7 @@ body {
     
     border: none;
     outline: none;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, .1);
 }
 
 .buttons__copy-link {
@@ -276,6 +277,7 @@ body {
     
     border: none;
     outline: none;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, .1);
 }
 .copy-link-img {
     width: 25px;
@@ -291,12 +293,13 @@ body {
 
 /* Media width */
 @media screen and (min-width: 768px) {
-    .head-text {
-        font-size: 100px;
-    }
+    
 }
 
 @media screen and (min-width: 375px) {
+    .head-text {
+        font-size: 40px;
+    }
     .head-text2 {
         font-size: 20px;
     }
@@ -305,7 +308,7 @@ body {
     .refer__template {
         width: 350px;
         
-        margin: 40px auto;
+        margin: 20px auto;
     }
     .refer-img {
         width: 60px;

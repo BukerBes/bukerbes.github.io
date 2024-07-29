@@ -45,6 +45,7 @@ body {
 	display: flex;
 	
 	align-items: center;
+    text-align: center;
 	justify-content: center;
 }
 .count-name {
@@ -55,8 +56,7 @@ body {
     font-weight: 700;
 }
 .count-img {
-	width: 50px;
-	height: 50px;
+	width: 40px;
 }
 
 .coin-income {
@@ -100,7 +100,7 @@ body {
     outline: none;
 }
 .coin-img {
-    width: 300px;
+    width: 250px;
 }
 .coin-img:active {
     transform: scale(0.98);
@@ -116,7 +116,7 @@ body {
 	text-align: center;
 
 	position: absolute;
-	bottom: 15%;
+	bottom: 80px;
 }
 .events a {
     text-decoration: none;
@@ -185,6 +185,10 @@ body {
 
 /* Media width */
 @media screen and (min-width: 425px) {
+    .coin-img {
+		width: 280px;
+	}
+    
     .soon-rocket-img {
 	    width: 28px;
     }
@@ -197,37 +201,24 @@ body {
     }
 }
 
-@media screen and (max-width: 370px) {
-	.coin-img {
-		width: 250px;
-	}
-    
-    .soon-name {
-	    font-size: 7vw;
+@media screen and (max-width: 350px) {
+	.events-soon {
+	    margin: 5px 10px;
     }
-    .soon-lock-img {
-	    width: 30px;
-    }
-    .soon-rocket-img {
-	    width: 8vw;
-    }
-    
-    .fortune-name {
-	    font-size: 4.5vw;
-    }
-    .fortune-img {
-	    width: 15vw;
+    .events-fortune {
+	    margin: 5px 10px;
     }
 }
 
-/* Media height */
-@media screen and (max-height: 650px) {
+@media screen and (max-width: 370px) {
 	.coin-img {
-		width: 250px;
+		width: 230px;
 	}
 }
-@media screen and (max-height: 550px) {
+
+/* Media height */
+@media screen and (max-height: 580px) {
 	.coin-img {
-		width: 200px;
+		width: 180px;
 	}
 }
