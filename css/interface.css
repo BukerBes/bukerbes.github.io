@@ -7,16 +7,18 @@ a {
 }
 
 .bottom-nav {
-    display: flex;
     position: fixed;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    
     align-items: center;
+    
     width: 98%;
-    height: 10%;
+    height: 66px;
     bottom: 0;
 
 	margin: 1vw;
-    padding: 8px 0px 0px 0px;
+    padding: 0px;
     z-index: 100;
 
     border-radius: 0.7em;
@@ -26,10 +28,12 @@ a {
     backdrop-filter: blur(15px);
 }
 .bottom-nav a {
-    float: left;
-    display: flex;
-    flex-direction: column;
-    row-gap: .40rem;
+    display: grid;
+    
+    grid-template-rows: repeat(2, auto);
+    row-gap: .20rem;
+    
+    padding: 7px 5px 5px;
 
     align-items: center;
     text-align: center;
@@ -40,8 +44,16 @@ a {
     text-decoration: none;
 }
 .bottom-nav a.active {
-    
+    background: #fff3;
+    border-radius: 0.7em;
 }
+.bottom-nav a:active {
+    color: black;
+}
+.nav-img {
+    margin: 0 auto;
+}
+
 
 /* User template */
 .user-nav {
@@ -64,8 +76,9 @@ a {
 .user-img {
     width: 35px;
     border-radius: 50%;
-    margin: 10px;
+    margin: 12px;
 }
+
 
 /* Logo */
 .logo {
@@ -79,6 +92,18 @@ a {
 }
 
 
+/* Media height */
+@media screen and (min-height: 780px) {
+    
+}
+
+@media screen and (max-height: 590px) {
+    .bottom-nav a {
+        font-size: 11px;
+    }
+}
+
+/* Media width */
 @media screen and (max-width: 370px) {
 	.user-name {
 		font-size: 15px;
